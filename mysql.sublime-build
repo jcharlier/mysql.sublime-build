@@ -1,0 +1,11 @@
+{
+    "cmd": [
+        "mysql",
+        "--login-path=login-path-name",
+        "-e",
+        "source $file",
+        "database_name",
+        "-t"
+    ],
+    "selector": "source.sql"
+}
