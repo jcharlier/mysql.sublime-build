@@ -1,7 +1,7 @@
 {
     "cmd": [
         "mysql",
-        "--login-path=login-path-name",
+        "--login-path=mysql-login-path",
         "-e",
         "source $file",
         "database_name",
